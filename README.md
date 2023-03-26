@@ -1,3 +1,3 @@
 # Markdown
 
-<span style="color: blue;">Note</span>
+<h3>Note</h3>
