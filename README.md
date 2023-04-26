@@ -169,44 +169,105 @@ function someFunc() {
 
 ---
 
+## 테이블
+
+> 일반
+> 
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+
+> 정렬
+> 
+|제목|내용|설명|
+|:---|---:|:---:|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+
+> 셀서식
+>
+|제목|내용|설명|
+|---|---|---|
+|테스트1|*강조1*|테스트3|
+|테스트1|**강조2**|테스트3|
+|테스트1|<span style="color:red">강조3</span>|테스트3|
+---
+
 ## ***수학 기호를 넣는 방법***
 
 # [Ref. LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 
-$1 + 1 = 2$
+## Default Examples
 
-$$1 + 1 = 2$$
-
-$2\times 2 = 4$  
-
-$^1/_2$
+- $1+1=2$
+- $4-3=1$
+- $2\times 2 = 4$  
+- $a \ast b$  
+- $a \cdot b$  
+- $^1/_2$  
+- $a / b$
+- $a \div b$
+- $a \colon b$
+- $\sqrt[3]{a}$
+- $\sqrt[n]{a}$
+- $\Delta x = x_1 - x_0$
+- $\angle$
+- $30\degree45\rq30\rq\rq$
+- $\frac{df}{dx}$
+- $A=\int_1^4\frac{x^2}{x} dx$
+- $z=3+2i$
+- $A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$
+ 
+```
+- $1+1=2$
+- $4-3=1$
+- $2\times 2 = 4$  
+- $a \ast b$  
+- $a \cdot b$  
+- $^1/_2$  
+- $a / b$
+- $a \div b$
+- $a \colon b$
+- $\sqrt[3]{a}$
+- $\sqrt[n]{a}$
+- $\Delta x = x_1 - x_0$
+- $\angle$
+- $30\degree45\rq30\rq\rq$
+- $\frac{df}{dx}$
+- $A=\int_1^4\frac{x^2}{x} dx$
+- $z=3+2i$
+- $A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$
+```
 
 ---
 
-***소괄호 표기법***  
+***소괄호***  
 
+```
+$(1 + 2)$
 ```
 $$(1 + 2)$$
-```
-$$(1 + 2)$$
 
 ---
 
-***중괄호 표기법***  
+***중괄호***  
 
 ```
-$$\{1 + 2\}$$
+$\{1 + 2\}$
 ```
 $$\{1 + 2\}$$
 
 ---
 
-***대괄호 표기법***  
+***대괄호***  
 
 ```
-$$[1 + 2]$$
+$\left[\;1 + 2\;\right]$
 ```
-$$[1 + 2]$$
+$$\left[\;1 + 2\;\right]$$
 
 ---
 
@@ -215,6 +276,7 @@ $$[1 + 2]$$
 ```
 $$\left(\frac{2}{3}\right)$$
 ```
+$$\left(\frac{2}{3}\right)$$
 
 ---
 
@@ -327,13 +389,16 @@ $$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
 
 ***삼각함수 (싸인, 코싸인, 탄젠트, 세타) 표기법***  
 
-```
-$$90^\circ$$
-```
+
+--- 
 
 $$90^\circ$$
 $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
 
+```
+$$90^\circ$$
+$$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
+```
 --- 
 
 ***파이 (PI) 표기법***  
@@ -582,4 +647,373 @@ $\rightarrow$
 |네칸띄어|`x \quad y`|$x \quad y$|여덟칸띄어|`x \qquad y`|$x \qquad y$|
 
 ---
+
+## 그리스문자의 용도
+
+그리스 문자는 수학, 과학, 공학, 철학, 언어학 등 다양한 분야에서 사용됩니다.  
+각각의 그리스 문자는 특정한 용도를 가지며, 일반적으로 다음과 같은 용도로 사용됩니다  
+
+1. 알파 (α): 순서나 레벨을 나타내는 데 사용됩니다. 또한 각도, 가속도, 알파 입자 등을 나타내는 데 사용됩니다.  
+2. 베타 (β): 물리학에서 전자의 속도나 궤도, 각도의 측정, 또는 화학에서 결합 에너지와 같은 다양한 용도로 사용됩니다.
+3. 감마 (γ): 물리학에서 방사선, 광학에서 파장, 화학에서 화학 반응속도 등을 나타내는 데 사용됩니다.
+4. 델타 (δ): 수학에서 미분, 물리학에서 비율 변화율, 화학에서 전하 밀도 등을 나타내는 데 사용됩니다.
+5. 엡실론 (ε): 물리학에서 유전율, 반도체 이론 등을 나타내는 데 사용됩니다.
+6. 제타 (ζ): 수학에서 제타 함수와 같은 다양한 수식에서 사용됩니다.
+7. 에타 (η): 물리학에서 흡수 계수와 같은 다양한 용도로 사용됩니다.
+8. 쎄타 (θ): 수학에서 각도, 물리학에서 회전 각도, 통계학에서 각도의 분포와 같은 다양한 용도로 사용됩니다.
+9. 요타 (ι): 그리스어 단어에서 '작은 것'을 의미하며, 수학에서는 단위 벡터와 같은 용도로 사용됩니다.
+10. 카파 (κ): 물리학에서 저항 계수와 같은 다양한 용도로 사용됩니다.
+11. 람다 (λ): 수학에서 파장 길이, 물리학에서 전자파나 입자의 파장, 화학에서 분광학적 분석 등을 나타내는 데 사용됩니다.
+12. 뮤 (μ): 물리학에서 자기 유도율과 같은 다양한 용도로 사용됩니다.
+13. 누 (ν): 물리학에서 파동수, 화학에서 분광학적 분석에서 진동수와 같은 다양한 용도로 사용됩니다.
+
+
+## Mermaid Examples
+
+```mermaid
+graph LR
+A(입력)-->B[연산]-->C(출력)
+C-->G(Hello)
+B-->H(Hi)
+```
+
+```
+graph LR
+A(입력)-->B[연산]-->C(출력)
+C-->G(Hello)
+B-->H(Hi)
+```
+
+---
+
+```mermaid
+flowchart LR
+    A[구매] --> B;
+    B[유저, 파라미터, \n 어뷰징 검증] --> C;
+    C{client가 안드로이드} -->|Yes| E;
+    C -->|No| G;
+    E[안드로이드 Proxy 처리] --> G;
+    G[DB 저장] --> I;
+    I[응답 반환];
+```
+
+```
+flowchart LR
+    A[구매] --> B;
+    B[유저, 파라미터, \n 어뷰징 검증] --> C;
+    C{client가 안드로이드} -->|Yes| E;
+    C -->|No| G;
+    E[안드로이드 Proxy 처리] --> G;
+    G[DB 저장] --> I;
+    I[응답 반환];
+```
+
+---
+
+```
+TB(= TD) : 위에서 아래로
+BT : 아래에서 위로
+RL : 오른쪽에서 왼쪽으로
+LR : 왼쪽에서 오른쪽으로
+```
+
+---
+
+```mermaid
+flowchart LR
+    A[(Database)]
+    B[Service]
+    C(C)
+    D{Box}
+    E[(Data)]
+    A-.->B
+    B-->C
+    B-->|의존|E
+    A-->D
+```
+
+```
+flowchart LR
+    A[(Database)]
+    B[Service]
+    C(C)
+    D{Box}
+    E[(Data)]
+    A-.->B
+    B-->C
+    B-->|의존|E
+    A-->D
+```
+
+---
+
+```mermaid
+graph TD
+    A-->B
+```
+
+```
+graph TD
+    A-->B
+```
+
+---
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+```
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+---
+
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+```
+
+```
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2014-01-10
+
+section A section
+Completed task            :done,    des1, 2014-01-06,2014-01-08
+Active task               :active,  des2, 2014-01-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
+```
+
+---
+
+# Class diagram
+
+```mermaid
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+
+```
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+
+---
+
+# Git graph
+
+```mermaid
+    gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+
+```
+    gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
+
+---
+
+# Entity Relationship Diagram
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+```
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+---
+
+# User Journey Diagram
+
+```mermaid
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+
+```
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+
+```
+
+---
+
+```mermaid
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
+```
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
+---
+
+# Timeline
+
+```mermaid
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : Youtube
+    2006 : Twitter
+```
+
+```
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : Youtube
+    2006 : Twitter
+```
+
+---
+
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+
+```
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+
+---
+
+
+
 
