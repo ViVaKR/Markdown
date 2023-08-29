@@ -1014,6 +1014,6 @@ mindmap
 
 ---
 
+Links[^]
 
-
-
+[^]: https://vivabm.com
