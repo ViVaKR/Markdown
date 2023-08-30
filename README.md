@@ -124,14 +124,14 @@ function someFunc() {
 
 ` ``` `
 
-#### bash
+## bash
 
 ```bash
     npm install
     npm start
 ```
 
-#### Python
+## Python
 
 ```python
     def add(num1, num2):
@@ -139,7 +139,7 @@ function someFunc() {
 
 ```
 
-### C #
+## CSharp
 
 ```csharp
     public class Program 
@@ -224,7 +224,7 @@ function someFunc() {
 
 ## ***수학 기호를 넣는 방법***
 
-# [Ref. LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+## [Ref. LaTex](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 
 ## Default Examples
 
@@ -247,7 +247,7 @@ function someFunc() {
 + $z=3+2i$
 + $A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$
 
-```
+```markdown
 - $1+1=2$
 - $4-3=1$
 - $2\times 2 = 4$  
@@ -270,79 +270,79 @@ function someFunc() {
 
 ---
 
-***소괄호***  
-
-```
-$(1 + 2)$
-```
+## 소괄호
 
 $$(1 + 2)$$
 
+```markdown
+$(1 + 2)$
+```
+
 ---
 
-***중괄호***  
-
-```
-$\{1 + 2\}$
-```
+## 중괄호  
 
 $$\{1 + 2\}$$
 
+```markdown
+$\{1 + 2\}$
+```
+
 ---
 
-***대괄호***  
-
-```
-$\left[\;1 + 2\;\right]$
-```
+## 대괄호  
 
 $$\left[\;1 + 2\;\right]$$
 
+```markdown
+$\left[\;1 + 2\;\right]$
+```
+
 ---
 
-***자동괄호 리사이징 표기법***  
+## 자동괄호 리사이징  
 
-```
+$$\left(\frac{2}{3}\right)$$
+
+```markdown
 $$\left(\frac{2}{3}\right)$$
 ```
 
-$$\left(\frac{2}{3}\right)$$
-
 ---
 
-***수동 괄호 리사이징 (big, Big, bigg, Bigg) 표기법***  
-
-```
-$$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
-```
+## 수동 괄호 리사이징 (big, Big, bigg, Bigg)  
 
 $$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
 
----
-
-***위 첨자 지수 (Power) 표기법***  
-
+```markdown
+$$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
 ```
-$$2^2 = 4$$
-```
-
-$$2^2 = 4$$
 
 ---
 
-***아래 첨자 (Indices)표기법***  
+## 위 첨자 지수 (Power) 표기법  
 
+$$2^2 = 4$$
+
+```markdown
+$$2^2 = 4$$
 ```
+
+---
+
+## 아래 첨자 (Indices)  
+
+$$a_1, a_2, a_3$$
+
+```markdown
 $$a_1, a_2, a_3$$
 ```
-
-$$a_1, a_2, a_3$$
 
 ---
 
 ***점 (dot) 수와 수사이 값이 존재함을 생략적 표기법***  
 
-```
+```markdown
 $$ 0\dots11$$
 ```
 
@@ -350,175 +350,167 @@ $$ 0\dots11$$
 
 ---
 
-***중앙에 점 (dot) 표기법***  
-
-```
-$$1\cdots10$$
-```
+## 중앙에 점 (dot) 표기법
 
 $$1\cdots10$$
 
+```markdown
+$$1\cdots10$$
+```
+
 ---
 
-***새로방향 점 표기법***  
+## 새로방향 점 표기법
 
-```
+$$\vdots$$
+
+```markdown
 $$\vdots$$
 ```
 
-$$\vdots$$
-
 ---
 
-***대각선 방향 점 표기법***  
-
-```
-$$\ddots$$
-```
+## 대각선 방향 점 표기법  
 
 $$\ddots$$
 
----
-***루트 (거듭제곱근) 표기법***  
-
+```markdown
+$$\ddots$$
 ```
-$$\sqrt{2}$$
-```
-
-$$\sqrt{2}$$
 
 ---
 
-***펙토리얼 (Factorial) 표기법***  
+## 루트 (거듭제곱근)  
 
+$$\sqrt{2}$$
+
+```markdown
+$$\sqrt{2}$$
 ```
-$$n! = 1 \times 2 \times 3 \times 4 \ldots n$$
-$$n! = \prod_{k=1}^n k$$
-```
+
+---
+
+## 펙토리얼 (Factorial) 표기법  
 
 $$n! = 1 \times 2 \times 3 \times 4 \ldots n$$
 $$n! = \prod_{k=1}^n k$$
 
+```markdown
+$$n! = 1 \times 2 \times 3 \times 4 \ldots n$$
+$$n! = \prod_{k=1}^n k$$
+```
+
 ---
 
-***합집합 표기법***  
+## 합집합 표기법  
 
-```
+$$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
+
+```markdown
 $$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
 ```
 
-$$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
-
 ---
 
-***교집합 표기법***  
-
-```
-$$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
-```
+## 교집합 표기법
 
 $$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
 
+```markdown
+$$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
+```
+
 ---
 
-***수학공식, 수식번호 표기법***  
-
-```
-$$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
-```
+## 수학공식, 수식번호 표기법
 
 $$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
 
-***삼각함수 (싸인, 코싸인, 탄젠트, 세타) 표기법***  
+```markdown
+$$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
+```
+
+---
+
+## 삼각함수 (싸인, 코싸인, 탄젠트, 세타) 표기법  
 
 ---
 
 $$90^\circ$$
 $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
 
-```
+```markdown
 $$90^\circ$$
 $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
 ```
 
 ---
 
-***파이 (PI) 표기법***  
-
-```
-$$\pi, \Pi, \phi$$
-```
+## 파이 (PI) 표기법  
 
 $$\pi, \Pi, \phi$$
 
+```markdown
+$$\pi, \Pi, \phi$$
+```
+
 ---
 
-***각도 표기법***  
+## 각도 표기법  
 
-```
+$$90^\circ$$
+
+```markdown
 $$90^\circ$$
 ```
 
-$$90^\circ$$
-
 ---
 
-***극한 표기법 (limit)***  
-
-```
-$$\lim_{x \to \infty} \exp(-x) = 0$$
-```
+## 극한 표기법 (limit)  
 
 $$\lim_{x \to \infty} \exp(-x) = 0$$
 
+```markdown
+$$\lim_{x \to \infty} \exp(-x) = 0$$
+```
+
 ---
 
-***시그마 표기법 (for)***  
-
-```
-$$\displaystyle\sum_{i=1}^{10} t_i$$
-$$\sum_{i=1}^{10} t_i$$
-```
+## 시그마 (for)  
 
 $$\displaystyle\sum_{i=1}^{10} t_i$$
 $$\sum_{i=1}^{10} t_i$$
 
----
-
-***미분 표기법 (Differential)***  
-
+```markdown
+$$\displaystyle\sum_{i=1}^{10} t_i$$
+$$\sum_{i=1}^{10} t_i$$
 ```
-$$\dv{Q}{t} = \dv{s}{t}$$
-```
-
-$$\dv{Q}{t} = \dv{s}{t}$$
 
 ---
 
-***적분 (Intergral) 표기법***  
+## 미분 표기법 (Differential)  
 
+$$\dv{Q}{t} = \dv{s}{t}$$
+
+```markdown
+$$\dv{Q}{t} = \dv{s}{t}$$
 ```
+
+---
+
+## 적분 (Intergral) 표기법  
+
+$$\int_0^\infty \mathrm{e}^{-x}\, \mathrm{d}x$$
+$$\int\limits_a^b$$
+
+```markdown
 $$\int_0^\infty \mathrm{e}^{-x}\, \mathrm{d}x$$
 $$\int\limits_a^b$$
 ```
 
-**$$\int_0^\infty \mathrm{e}^{-x}\, \mathrm{d}x$$
-
-$$\int\limits_a^b$$
-
 ---
 
-***행렬 (Matrix) 표기법***
-
-```
-$$A_{m,n} = 
-\begin{pmatrix}
-a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
-a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m,1} & a_{m,2} \cdots & a_{m,n}
-\end{pmatrix}$$
-```
+## 행렬 (Matrix)
 
 $$A_{m,n} =
 \begin{pmatrix}
@@ -528,19 +520,29 @@ a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
 a_{m,1} & a_{m,2} \cdots & a_{m,n}
 \end{pmatrix}$$
 
+```markdown
+$$A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m,1} & a_{m,2} \cdots & a_{m,n}
+\end{pmatrix}$$
+```
+
 ---
 
-***백터, 스칼라 (Vector, Scalar) 표기법***
-
-```
-$$\overrightarrow{AB}$$
-
-$$\overline{AB}$$
-```
+## 백터, 스칼라 (Vector, Scalar) 표기법
 
 $$\overrightarrow{AB}$$
 
 $$\overline{AB}$$
+
+```markdown
+$$\overrightarrow{AB}$$
+
+$$\overline{AB}$$
+```
 
 ---
 
@@ -578,41 +580,37 @@ $$\overline{AB}$$
    + `tan` : 탄젠트
 
 ---
-***ETC***
 
-```
-$$\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi$$
-```
+## ETC
 
 $$\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi$$
 
+```markdown
+$$\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi$$
+```
+
 ---
 
-```
+$a \bmod b$
+
+```markdown
 $a \bmod b$
 ```
 
-$a \bmod b$
-
 ---
 
-```
-$f(n) = n^5$
-```
+$f(n) = n^5$  
+Hello $^3/_7$ World  
+hello$\;$fine  
+$\rightarrow$  
 
----
-
-```
+```markdown
 $f(n) = n^5$
 Hello $^3/_7$ World   
 hello$\;$fine
 $\rightarrow$
 ```
 
-$f(n) = n^5$
-Hello $^3/_7$ World
-hello$\;$fine  
-$\rightarrow$
 ---
 
 ***논문 기호***
@@ -724,7 +722,7 @@ C-->G(Hello)
 B-->H(Hi)
 ```
 
-```
+```markdown
 graph LR
 A(입력)-->B[연산]-->C(출력)
 C-->G(Hello)
@@ -744,7 +742,7 @@ flowchart LR
     I[응답 반환];
 ```
 
-```
+```markdown
 flowchart LR
     A[구매] --> B;
     B[유저, 파라미터, \n 어뷰징 검증] --> C;
@@ -757,7 +755,7 @@ flowchart LR
 
 ---
 
-```
+```markdown
 TB(= TD) : 위에서 아래로
 BT : 아래에서 위로
 RL : 오른쪽에서 왼쪽으로
@@ -779,7 +777,7 @@ flowchart LR
     A-->D
 ```
 
-```
+```markdown
 flowchart LR
     A[(Database)]
     B[Service]
@@ -799,7 +797,7 @@ graph TD
     A-->B
 ```
 
-```
+```markdown
 graph TD
     A-->B
 ```
@@ -820,7 +818,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
-```
+```markdown
 sequenceDiagram
     participant Alice
     participant Bob
@@ -849,7 +847,8 @@ Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
 ```
 
-```
+```markdown
+
 gantt
 dateFormat  YYYY-MM-DD
 title Adding GANTT diagram to mermaid
@@ -860,11 +859,12 @@ Completed task            :done,    des1, 2014-01-06,2014-01-08
 Active task               :active,  des2, 2014-01-09, 3d
 Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
+
 ```
 
 ---
 
-# Class diagram
+## Class diagram
 
 ```mermaid
 classDiagram
@@ -883,7 +883,8 @@ Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
 
-```
+```markdown
+
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
@@ -898,11 +899,12 @@ Class01 : size()
 Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
+
 ```
 
 ---
 
-# Git graph
+## Git graph
 
 ```mermaid
     gitGraph
@@ -917,7 +919,7 @@ Class08 <--> C2: Cool label
        commit
 ```
 
-```
+```markdown
     gitGraph
        commit
        commit
@@ -932,7 +934,7 @@ Class08 <--> C2: Cool label
 
 ---
 
-# Entity Relationship Diagram
+## Entity Relationship Diagram
 
 ```mermaid
 erDiagram
@@ -941,7 +943,7 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
-```
+```markdown
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
@@ -950,7 +952,7 @@ erDiagram
 
 ---
 
-# User Journey Diagram
+## User Journey Diagram
 
 ```mermaid
 journey
@@ -964,7 +966,7 @@ journey
       Sit down: 5: Me
 ```
 
-```
+```markdown
 journey
     title My working day
     section Go to work
@@ -986,7 +988,7 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 ```
 
-```
+```markdown
 pie title Pets adopted by volunteers
     "Dogs" : 386
     "Cats" : 85
@@ -995,7 +997,7 @@ pie title Pets adopted by volunteers
 
 ---
 
-# Timeline
+## Timeline
 
 ```mermaid
 timeline
@@ -1007,7 +1009,7 @@ timeline
     2006 : Twitter
 ```
 
-```
+```markdown
 timeline
     title History of Social Media Platform
     2002 : LinkedIn
@@ -1039,7 +1041,7 @@ mindmap
       Mermaid
 ```
 
-```
+```markdown
 mindmap
   root((mindmap))
     Origins

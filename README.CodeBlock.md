@@ -53,3 +53,12 @@
 * vue
 * xml – XML and also used for HTML with inline CSS and Javascript
 * yaml
+
+---
+
+```mermaid
+
+graph LR
+    A --> B
+
+```
