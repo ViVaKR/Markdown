@@ -18,15 +18,18 @@
 7. 링크 (Links)
 8. 수평선 (Horizontal Rules)
 
----
-
 ## 제목 : `숫자 기호와 제목이름 사이에 공백 추가`
 
 > # 제목 1 (`#`)
+>
 > ## 제목 2 (`##`)
+>
 > ### 제목 3 (`###`)
+>
 > #### 제목 4 (`####`)
+>
 > ##### 제목 5 (`#####`)
+>
 > ###### 제목 6 (`######`)
 
 ---
@@ -40,26 +43,29 @@
 ---
 
 ## 줄바꿈
+>
 > 일반문장 그대로 타이핑후 끝에서 줄바꿈은 &emsp; `공백 + 공백`
 
 ## 단락
+>
 > 또는 단락 사이에 공백을 넣음
 
 ---
 
 ## 링크 (Link) : `[링크명](URL)`
 
-> 이것은 하이퍼링크 - [헬로우월드 바로가기](https://vivabm.com "ViVaBM WebSite") 
+> 이것은 하이퍼링크 - [헬로우월드 바로가기](https://vivabm.com "ViVaBM WebSite")
 
 ---
-## 강조 (Emphaszing): 
+
+## 강조 (Emphaszing)
 
 일반 문장  
 *기울어진 문장 (1)* : `*문장*`  
-_기울어진 문장 (2)_ : `_문장_`   
+*기울어진 문장 (2)* : `_문장_`
 **굵은 문장 (1)** : `**문장**`  
-__굵은 문장 (2)__  `__...__`  
-___굵고 기울어진 문장 만들기 (1)___ `___문장___`  
+**굵은 문장 (2)**  `__...__`  
+***굵고 기울어진 문장 만들기 (1)*** `___문장___`  
 ***굵고 기울어진 문장 만들기 (2)*** `***문장***`  
 ~~취소선 만들기~~ `~~문장~~`  
 수평선   `---`  
@@ -68,11 +74,11 @@ ___굵고 기울어진 문장 만들기 (1)___ `___문장___`
 
 ### UL
 
-- 아이템 1
-- 아이템2
-  - 서브 아이템 1
-  - 서브 아이템 2
-- 아이템 3
++ 아이템 1
++ 아이템2
+  + 서브 아이템 1
+  + 서브 아이템 2
++ 아이템 3
 
 ### OL
 
@@ -83,44 +89,58 @@ ___굵고 기울어진 문장 만들기 (1)___ `___문장___`
 3. 번호 아이템 3  
 
 ---
+
 ## 인용구 (Blockquotes) : `> 좋은 글...., >> 연관된 중첩문`
-> 하루에 3시간 걸으면 7년 후에 지구를 한바퀴 돌 수 있다 - 사무엘 존슨   
+>
+> 하루에 3시간 걸으면 7년 후에 지구를 한바퀴 돌 수 있다 - 사무엘 존슨
 >
 > 다음 문장
 >
->> 중첩된 문장 
->> - 중첩 내부에 서브 문장
+>> 중첩된 문장
+>>
+>> + 중첩 내부에 서브 문장
+>>
 ---
-## 코드블럭 (Code Block) :  ` ``` ` _Code Blocks_ ` ``` `
+
+## 코드블럭 (Code Block) :  ` ``` ` *Code Blocks* ` ``` `
 
 ` ```html `
+
 ```html
 <head>
     <title>Hello, World</title>
 </head>
 ```
-` ``` `   
+
+` ``` `
 
 ` ```javascript `
+
 ```javascript
 function someFunc() {
     alert('Hello World');
 }
 ```
+
 ` ``` `
+
 #### bash
+
 ```bash
     npm install
     npm start
 ```
 
 #### Python
+
 ```python
     def add(num1, num2):
         return num1 + num2
 
 ```
-### C#
+
+### C #
+
 ```csharp
     public class Program 
     {
@@ -131,31 +151,37 @@ function someFunc() {
     }
 ```
 
-> 문장안에 __*Inline Code Block*__ 넣기
+> 문장안에 ***Inline Code Block*** 넣기
 >  
 > \`싱글 백틱으로 Code 를 양쪽으로 감쌈\`
-> 
+>
 >> this is an \` `<div>` \`  
->> `<p> This is a inline block by p tag <p/>` 
+>> `<p> This is a inline block by p tag <p/>`
 ---
+
 ## 탈출문자, Escape Caracter : `\`
+>
 > 탈출 시키기 => \*여보세요\*  
 ---
 
 ## Table : `|` 으로 칸 만들기
-`|title 1 | title 2 |`   
-`| ---  | --- |`   
+
+`|title 1 | title 2 |`
+`| ---  | --- |`
 `| 내용 1 | 내용 2 |`  
 
 |Name|Email|
 |---|---|
-|ViV|viv@gamil.com|
-|Hello|hello@gmail.com|
+|ViV|<viv@gamil.com>|
+|Hello|<hello@gmail.com>|
 ---
+
 ## Task List : `[ ]`
-* [X] Task 1
-* [ ] Task 2
-* [ ] Task 3
+
++ [X] Task 1
++ [ ] Task 2
++ [ ] Task 3
+
 ---
 
 ## HTML : 일반 Html Tag 를 그대로 사용
@@ -172,7 +198,7 @@ function someFunc() {
 ## 테이블
 
 > 일반
-> 
+>
 |제목|내용|설명|
 |------|---|---|
 |테스트1|테스트2|테스트3|
@@ -180,7 +206,7 @@ function someFunc() {
 |테스트1|테스트2|테스트3|
 
 > 정렬
-> 
+>
 |제목|내용|설명|
 |:---|---:|:---:|
 |왼쪽정렬|오른쪽정렬|중앙정렬|
@@ -202,25 +228,25 @@ function someFunc() {
 
 ## Default Examples
 
-- $1+1=2$
-- $4-3=1$
-- $2\times 2 = 4$  
-- $a \ast b$  
-- $a \cdot b$  
-- $^1/_2$  
-- $a / b$
-- $a \div b$
-- $a \colon b$
-- $\sqrt[3]{a}$
-- $\sqrt[n]{a}$
-- $\Delta x = x_1 - x_0$
-- $\angle$
-- $30\degree45\rq30\rq\rq$
-- $\frac{df}{dx}$
-- $A=\int_1^4\frac{x^2}{x} dx$
-- $z=3+2i$
-- $A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$
- 
++ $1+1=2$
++ $4-3=1$
++ $2\times 2 = 4$  
++ $a \ast b$  
++ $a \cdot b$  
++ $^1/_2$  
++ $a / b$
++ $a \div b$
++ $a \colon b$
++ $\sqrt[3]{a}$
++ $\sqrt[n]{a}$
++ $\Delta x = x_1 - x_0$
++ $\angle$
++ $30\degree45\rq30\rq\rq$
++ $\frac{df}{dx}$
++ $A=\int_1^4\frac{x^2}{x} dx$
++ $z=3+2i$
++ $A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$
+
 ```
 - $1+1=2$
 - $4-3=1$
@@ -249,6 +275,7 @@ function someFunc() {
 ```
 $(1 + 2)$
 ```
+
 $$(1 + 2)$$
 
 ---
@@ -258,6 +285,7 @@ $$(1 + 2)$$
 ```
 $\{1 + 2\}$
 ```
+
 $$\{1 + 2\}$$
 
 ---
@@ -267,6 +295,7 @@ $$\{1 + 2\}$$
 ```
 $\left[\;1 + 2\;\right]$
 ```
+
 $$\left[\;1 + 2\;\right]$$
 
 ---
@@ -276,6 +305,7 @@ $$\left[\;1 + 2\;\right]$$
 ```
 $$\left(\frac{2}{3}\right)$$
 ```
+
 $$\left(\frac{2}{3}\right)$$
 
 ---
@@ -285,6 +315,7 @@ $$\left(\frac{2}{3}\right)$$
 ```
 $$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
 ```
+
 $$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
 
 ---
@@ -294,6 +325,7 @@ $$\Bigg(\bigg(\Big(\big(1\big)\Big)\bigg)\Bigg)$$
 ```
 $$2^2 = 4$$
 ```
+
 $$2^2 = 4$$
 
 ---
@@ -303,6 +335,7 @@ $$2^2 = 4$$
 ```
 $$a_1, a_2, a_3$$
 ```
+
 $$a_1, a_2, a_3$$
 
 ---
@@ -312,6 +345,7 @@ $$a_1, a_2, a_3$$
 ```
 $$ 0\dots11$$
 ```
+
 $$ 0\dots11$$
 
 ---
@@ -321,6 +355,7 @@ $$ 0\dots11$$
 ```
 $$1\cdots10$$
 ```
+
 $$1\cdots10$$
 
 ---
@@ -330,6 +365,7 @@ $$1\cdots10$$
 ```
 $$\vdots$$
 ```
+
 $$\vdots$$
 
 ---
@@ -339,6 +375,7 @@ $$\vdots$$
 ```
 $$\ddots$$
 ```
+
 $$\ddots$$
 
 ---
@@ -347,6 +384,7 @@ $$\ddots$$
 ```
 $$\sqrt{2}$$
 ```
+
 $$\sqrt{2}$$
 
 ---
@@ -357,6 +395,7 @@ $$\sqrt{2}$$
 $$n! = 1 \times 2 \times 3 \times 4 \ldots n$$
 $$n! = \prod_{k=1}^n k$$
 ```
+
 $$n! = 1 \times 2 \times 3 \times 4 \ldots n$$
 $$n! = \prod_{k=1}^n k$$
 
@@ -367,6 +406,7 @@ $$n! = \prod_{k=1}^n k$$
 ```
 $$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
 ```
+
 $$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
 
 ---
@@ -376,6 +416,7 @@ $$\{a, b, c\} \cup \{d, e\}= \{a, b, c, d, e\}$$
 ```
 $$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
 ```
+
 $$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
 
 ---
@@ -385,12 +426,12 @@ $$\{a, b, c\} \cap \{a, b, d\} = \{a, b\}$$
 ```
 $$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
 ```
+
 $$X_{1,j} \mathbf{F}X_{2,j} = 0, \tag{1}$$
 
 ***삼각함수 (싸인, 코싸인, 탄젠트, 세타) 표기법***  
 
-
---- 
+---
 
 $$90^\circ$$
 $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
@@ -399,7 +440,8 @@ $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
 $$90^\circ$$
 $$\cos(1\theta) = \cos^2\theta - sin^2\theta \ldots \tan (2\theta)$$
 ```
---- 
+
+---
 
 ***파이 (PI) 표기법***  
 
@@ -426,6 +468,7 @@ $$90^\circ$$
 ```
 $$\lim_{x \to \infty} \exp(-x) = 0$$
 ```
+
 $$\lim_{x \to \infty} \exp(-x) = 0$$
 
 ---
@@ -440,13 +483,14 @@ $$\sum_{i=1}^{10} t_i$$
 $$\displaystyle\sum_{i=1}^{10} t_i$$
 $$\sum_{i=1}^{10} t_i$$
 
---- 
+---
 
 ***미분 표기법 (Differential)***  
 
 ```
 $$\dv{Q}{t} = \dv{s}{t}$$
 ```
+
 $$\dv{Q}{t} = \dv{s}{t}$$
 
 ---
@@ -476,7 +520,7 @@ a_{m,1} & a_{m,2} \cdots & a_{m,n}
 \end{pmatrix}$$
 ```
 
-$$A_{m,n} = 
+$$A_{m,n} =
 \begin{pmatrix}
 a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
 a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
@@ -493,6 +537,7 @@ $$\overrightarrow{AB}$$
 
 $$\overline{AB}$$
 ```
+
 $$\overrightarrow{AB}$$
 
 $$\overline{AB}$$
@@ -500,36 +545,37 @@ $$\overline{AB}$$
 ---
 
 ***기본 규칙***
+
 1. 인라인 수식
-   1. `$` 또는 `\(`와 `\)` 사이에 수식을 넣습니다. 
+   1. `$` 또는 `\(`와 `\)` 사이에 수식을 넣습니다.
    2. 예를 들어, `$y = mx + b$`와 같이 작성할 수 있습니다.
 
-2. 디스플레이 수식: 
-   1. `$$` 또는 `\[`와 `\]` 사이에 수식을 넣습니다. 
+2. 디스플레이 수식:
+   1. `$$` 또는 `\[`와 `\]` 사이에 수식을 넣습니다.
    2. 예를 들어, `$$y = \frac{1}{2}x^2 + 3x - 5$$`와 같이 작성할 수 있습니다.
 
-3. LaTeX 수식: 
-    1. LaTeX 수식을 사용하여 수식을 작성할 수 있습니다. 
-    2. 이를 위해서는 `$` 대신 `$$`를 사용하여 디스플레이 수식을 작성해야 합니다. 
+3. LaTeX 수식:
+    1. LaTeX 수식을 사용하여 수식을 작성할 수 있습니다.
+    2. 이를 위해서는 `$` 대신 `$$`를 사용하여 디스플레이 수식을 작성해야 합니다.
     3. 예를 들어, `$$\int_{0}^{1} x^2 dx = \frac{1}{3}$$`와 같이 작성할 수 있습니다.
 
 4. 수학기오
-   - `+`, `-`, `*`, `/`: 덧셈, 뺄셈, 곱셈, 나눗셈
-   - \div, \times, 
-   - `^`: 거듭제곱
-   - `_`: 아래 첨자
-   - `{}`: 그룹화
-   - `\sqrt`: 제곱근
-   - `\frac`: 분수 (fraction, 프렉션)
-   - `\int`: 적분
-   - `\sum`: 시그마 합
-   - `\lim`: 극한
-   - `\infty`: 무한대
-   - `\pi`: 원주율
-   - `\theta`: 세타
-   - `cos` : 코싸인
-   - `sin` : 싸인
-   - `tan` : 탄젠트
+   + `+`, `-`, `*`, `/`: 덧셈, 뺄셈, 곱셈, 나눗셈
+   + \div, \times,
+   + `^`: 거듭제곱
+   + `_`: 아래 첨자
+   + `{}`: 그룹화
+   + `\sqrt`: 제곱근
+   + `\frac`: 분수 (fraction, 프렉션)
+   + `\int`: 적분
+   + `\sum`: 시그마 합
+   + `\lim`: 극한
+   + `\infty`: 무한대
+   + `\pi`: 원주율
+   + `\theta`: 세타
+   + `cos` : 코싸인
+   + `sin` : 싸인
+   + `tan` : 탄젠트
 
 ---
 ***ETC***
@@ -537,6 +583,7 @@ $$\overline{AB}$$
 ```
 $$\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi$$
 ```
+
 $$\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi$$
 
 ---
@@ -561,8 +608,9 @@ Hello $^3/_7$ World
 hello$\;$fine
 $\rightarrow$
 ```
+
 $f(n) = n^5$
-Hello $^3/_7$ World   
+Hello $^3/_7$ World
 hello$\;$fine  
 $\rightarrow$
 ---
@@ -572,7 +620,7 @@ $\rightarrow$
 | 이름 | 명령어 | 반환 | 이름 | 명령어 | 반환 |
 |-|-|-|-|-|-|
 | 알파 | `\alpha` | $\alpha$ | 크사이 | `\xi` | $\xi$ |
-| 베타 |`\beta` | $\beta$ |	오미크론 | o |$o$|
+| 베타 |`\beta` | $\beta$ | 오미크론 | o |$o$|
 | 감마 |`\gamma` | $\gamma$ |파이 | \pi |$\pi$|
 | 델타 |`\delta` | $\delta$ | 로 | \rho |$\rho$|
 | 엡실론 |`\epsilon` | $\epsilon$|시그마|`\sigma`|$\sigma$|
@@ -666,7 +714,6 @@ $\rightarrow$
 11. 람다 (λ): 수학에서 파장 길이, 물리학에서 전자파나 입자의 파장, 화학에서 분광학적 분석 등을 나타내는 데 사용됩니다.
 12. 뮤 (μ): 물리학에서 자기 유도율과 같은 다양한 용도로 사용됩니다.
 13. 누 (ν): 물리학에서 파동수, 화학에서 분광학적 분석에서 진동수와 같은 다양한 용도로 사용됩니다.
-
 
 ## Mermaid Examples
 
