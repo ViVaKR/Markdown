@@ -8,66 +8,70 @@ This Markdown cheat sheet provides a quick overview of all the Markdown syntax e
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-### Heading
+## Heading
 
-# H1
-## H2
-### H3
+```markdown
+  # H1
+  ## H2
+  ### H3
+```
 
-### Bold
+## Bold
 
-**bold text**
+`**bold text**`
 
-### Italic
+## Italic
 
-*italicized text*
+`*italicized text*`
 
-### Blockquote
+## Blockquote
 
-> blockquote
+`> blockquote`
 
-### Ordered List
+## Ordered List
 
+```markdown
 1. First item
 2. Second item
 3. Third item
+```
 
-### Unordered List
+## Unordered List
 
+```markdown
 - First item
 - Second item
 - Third item
+```
 
-### Code
+## Code
 
 `code`
 
-### Horizontal Rule
+## Horizontal Rule
 
----
+`---`
 
-### Link
+## Link
 
-[Markdown Guide](https://www.markdownguide.org)
+`[Markdown Guide](https://www.markdownguide.org)`
 
-### Image
+## Image
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+`![alt text](https://www.markdownguide.org/assets/images/tux.png)`
 
-## Extended Syntax
+## Table
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
-
-### Table
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-### Fenced Code Block
-
+```markdown
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 ```
+
+## Fenced Code Block
+
+```json
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -75,11 +79,11 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 }
 ```
 
-### Footnote
+## Footnote
 
-Here's a sentence with a footnote. [^1]
+> Here's a sentence with a footnote. [^1]
 
-[^1]: This is the footnote.
+[^1]: This is the footnote. (1)
 
 ### Heading ID
 
@@ -88,11 +92,11 @@ Here's a sentence with a footnote. [^1]
 ### Definition List
 
 term
-: definition
+> : definition
 
 ### Strikethrough
 
-~~The world is flat.~~
+> ~~The world is flat.~~
 
 ### Task List
 
@@ -104,16 +108,20 @@ term
 
 That is so funny! :joy:
 
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
+> (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))  
 
 ### Subscript
 
-H~2~O
+> H~2~O  
 
 ### Superscript
 
-X^2^
+> $X^2$  
+
+## Markdown Footnote preview
+
+- extension `Markdown Footnotes`
+
+- Footnete Example [^example]
+
+[^example]: This is Footnotes
