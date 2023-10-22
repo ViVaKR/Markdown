@@ -629,9 +629,12 @@ $\divideontimes$
 $\backslash$  
 $\bullet$  
 $\bigoplus$  
+
 $\odot$  
+
 $\pm$  
 $\mp$  
+
 $\circledast$  
 $\bigotimes$  
 $\bigodot$  
@@ -650,7 +653,7 @@ $\scriptstyle{abcdefghijklmnopqrstuvwxyz}$
 $\left( \frac{1}{2} \right)$
 $1\,2\qquad3\quad4\,Hello\ World\ 5\;6\!7$  
 $\mathrm{0123456789}\;0123456789\; \mathbf{01234567890}$  
-$\lim_{n \to \infty}x_n$  
+$\displaystyle\lim_{n \to \infty}x_n$  
 $\sum_{k=1}^N k^2$  
 $\displaystyle\sum\limits_{i=1}^{\infty}$  
 $\sum\limits_{i=1}^{\infty}$
